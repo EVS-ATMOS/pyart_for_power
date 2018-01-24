@@ -1,0 +1,23 @@
+name: pypower
+channels:
+   - conda-forge
+   - ncar
+dependencies:
+   - python=3.6
+   - poppler=0.52
+   - xerces-c=3.1
+   - numpy
+   - matplotlib
+   - cartopy
+   - jupyter
+   - netcdf4
+   - metpy
+   - siphon
+   - xarray
+   - scipy
+   - boto
+   - cython
+   - pip:
+       - git+https://github.com/ARM-DOE/pyart.git
+       - git+https://github.com/nasa/PyTDA
+       - git+https://github.com/nasa/SingleDop
